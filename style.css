@@ -1,0 +1,107 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Registration Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  form input, form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background-color: #2d87f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #1c6fa4;
+  }
+  
+  /* Student list layout */
+  #student-list, #registered-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Student card styles */
+  .student {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .student h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .student p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .student .status {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .student button {
+    background-color: #2d87f0;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .student button:hover {
+    background-color: #1c6fa4;
+  }
+  
+  /* Loading message */
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Dark mode styles */
+  .dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  
+  .dark-mode .student {
+    background-color: #444;
+    color: #f4f4f4;
+  }
+  
+  .dark-mode .student button {
+    background-color: #666;
+  }
+  

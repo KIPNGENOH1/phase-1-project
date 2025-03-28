@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Admission Portal</h1>
+
+  <!-- Registration Form -->
+  <h2>Register as a New Student</h2>
+  <form id="registration-form">
+    <input type="text" id="first-name" placeholder="First Name" required />
+    <input type="text" id="last-name" placeholder="Last Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="text" id="course" placeholder="Course" required />
+    <button type="submit">Register</button>
+  </form>
+
+  <hr />
+
+  <input type="text" id="search" placeholder="Search by name or course..." />
+
+  <button id="toggle-theme">Toggle Dark/Light Mode</button>
+
+  <div id="loading" class="loading">Loading user applications...</div>
+
+  <div id="student-list">
+    <!-- Students will be dynamically added here -->
+  </div>
+
+  <hr />
+
+  <h2>Registered Students</h2>
+  <div id="registered-list">
+    <!-- Registered students will appear here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
